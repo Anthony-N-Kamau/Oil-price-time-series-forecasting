@@ -1,4 +1,4 @@
-# Forecasting
+# Time Series and Demand Forecasting
 
 Time series analysis and demand forecasting on daily WTI oil price data, covering trend and seasonality detection, decomposition, and short-horizon demand forecasting with several classical methods.
 
