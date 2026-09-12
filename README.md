@@ -70,7 +70,3 @@ pip install numpy pandas matplotlib scikit-learn statsmodels
 ## Results
 
 The forecasting section prints MSE values for each method (moving average, linear regression, ARIMA via STL, and exponential smoothing via STL) on the two-week held-out test set, allowing direct comparison of forecast accuracy across methods.
-
-## Author
-
-Anthony Kamau
