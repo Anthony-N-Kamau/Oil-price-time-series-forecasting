@@ -34,12 +34,12 @@ forecasting/
 
 ## Data
 
-The notebook expects a file named `oil.csv` in the working directory, with at least two columns:
+The notebook expects a file named `oil.csv` in the working directory, with two columns:
 
 - `date` — daily date (`YYYY-MM-DD`)
 - `dcoilwtico` — WTI crude oil price for that date
 
-`oil.csv` is one of the supplementary files from Kaggle's [Store Sales - Time Series Forecasting](https://www.kaggle.com/c/store-sales-time-series-forecasting/data?select=oil.csv) competition. Missing values are handled via `na_values = ['na', '-', '.', '']` on read and dropped where needed for modeling. If the dataset isn't included in this repo, download it from the link above (Kaggle account required) and place `oil.csv` in the repo root before running the notebook.
+`oil.csv` is one of the supplementary files from Kaggle's [Store Sales - Time Series Forecasting](https://www.kaggle.com/c/store-sales-time-series-forecasting/data?select=oil.csv) competition. Missing values are handled via `na_values = ['na', '-', '.', '']` on read and dropped where needed for modeling. 
 
 ## Requirements
 
