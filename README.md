@@ -4,8 +4,9 @@ Time series analysis and demand forecasting on daily WTI oil price data, coverin
 
 ## Overview
 
-This repository contains a single Jupyter notebook, `forecasting.ipynb`, that walks through a full time series analysis workflow on the [Daily Oil Price dataset](https://www.kaggle.com/c/store-sales-time-series-forecasting/data?select=oil.csv) (WTI crude oil price, `oil.csv`). It covers:
+This repository contains a single Jupyter notebook, `forecasting.ipynb`, that walks through a full time series analysis workflow on the [Daily Oil Price dataset](https://www.kaggle.com/c/store-sales-time-series-forecasting/data?select=oil.csv). 
 
+It covers:
 - **Data exploration** — plotting the full series and zooming into shorter windows to inspect structure.
 - **Trend extraction**
   - Semi-average method
